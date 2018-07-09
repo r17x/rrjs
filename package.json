@@ -1,0 +1,31 @@
+{
+  "name": "rrjs",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "description": "This for my personal use in javascript specific in ReactJS & ReactNative",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ri7nz/rrjs.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "reactjs",
+    "reactnative",
+    "javascript",
+    "ecmascript6"
+  ],
+  "author": "ri7nz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ri7nz/rrjs/issues"
+  },
+  "homepage": "https://github.com/ri7nz/rrjs#readme"
+}
