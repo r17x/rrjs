@@ -1,13 +1,22 @@
 import React from 'react'
+
 import {
     string,
     func,
 }from 'prop-types'
 
-import {Route, Redirect} from 'react-router-dom'
+import {
+    Route, 
+    Redirect
+} from 'react-router-dom'
 
 import {withCookies} from 'react-cookie'
 
+/**
+ * Private Route React-Router
+ * its function for protected a Route
+ * Type: HOC
+ */
 const PrivateRoute = ({
   component: Component,
   topathname: Topathname,
