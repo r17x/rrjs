@@ -1,4 +1,7 @@
-node_modules
+node_modules/
 *.swp
 *.swn
 *.swo
+.DS_STORE
+npm-debug.log
+dist/
