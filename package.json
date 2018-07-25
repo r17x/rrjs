@@ -30,7 +30,7 @@
         "index.js" 
     ],
     "scripts": {
-        "build": "./node_modules/.bin/babel src --out-dir dist",
+        "build": "babel src --out-dir dist --ignore __tests__",
         "clean": "rm -rf dist",
         "prepublish": "npm run clean && npm run test && npm run build",
         "test": "jest",
